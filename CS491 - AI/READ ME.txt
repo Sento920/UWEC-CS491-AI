@@ -1,0 +1,32 @@
+Psudo code: Lejos Ev3
+
+goal:
+
+initial steps:
+
+1st scan, if(nothing found){
+	while(both arm sensors are on the table,){
+		continue moving forward
+		
+		
+		
+		if(one of the sensors falls off){
+			turn to Face that direction,
+			then right itself
+		}
+	
+	}	
+}else{
+//something found then...
+	turn to face the object, then move toward it until the sensors fall off the table
+	while(both arm sensors are on the table,){
+		continue moving forward
+		if(one of the sensors falls off){
+			turn to Face that direction
+		}
+	
+	}
+
+
+
+}

@@ -1,0 +1,30 @@
+READ ME
+
+Jason Root and Tyler Rusch
+
+To run the search from command line, Once in the specified directory that contains the code for search,
+
+javac XbXPuzzleSolver.java (Command Arguments here.)
+
+or
+
+Run search.jar that is included via
+
+java -jar search.jar (Command Arguments here.)
+
+
+
+Flags/Command Args
+
+-V verbose mode
+
+-AREP allow repeats
+
+-xD=xx  specified depth of xx.
+
+-Breadth    Breath First search
+-Depth		Depth First search
+-Best		Best First search
+
+
+
